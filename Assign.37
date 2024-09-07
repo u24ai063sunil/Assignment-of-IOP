@@ -4,8 +4,8 @@ int main()
 {
     int num=1,n;
     printf("enter the numbers:\n");
-    scanf("%d",&num);
-    while(num<n)
+    scanf("%d",&n);
+    while(num<=n)
     {
        if(num%2==1)
        {
