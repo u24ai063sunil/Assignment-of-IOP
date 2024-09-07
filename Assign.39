@@ -10,6 +10,5 @@ int main()
        printf("%d\n",num*num);
        num++;
     }
-    printf("the sum of numbers is:%d",sum);
     return 0;
 }
