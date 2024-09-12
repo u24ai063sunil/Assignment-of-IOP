@@ -13,14 +13,15 @@ int main()
         {
             printf("the entered number is not a prime number");
         }
+        return 1;
     }
     printf("the entered number is prime number");
     }
-    else if(num==1)
+    if(num==1)
     {
         printf("it is neither prime nor composite");
     }
-    else
+    if(num<1)
     {
         printf("invalid input");
     }
